@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="mobilna.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <StackLayout Margin="20">
+        <Label
+            BackgroundColor="#558B2F"
+            FontAttributes="Bold"
+            FontSize="36"
+            Text="Właściwości czcionki"
+            TextColor="White" />
+        <Label x:Name="size_lbl" Text="Rozmiar: " />
+        <Slider
+            x:Name="slider"
+            Maximum="40"
+            Minimum="0"
+            ValueChanged="Slider_Changed" />
+        <Label x:Name="quote" Text="Dzień dobry" />
+        <Button
+            BackgroundColor="#558B2F"
+            Clicked="Button_Clicked"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            Text="&gt;&gt;"
+            TextColor="White" />
+    </StackLayout>
+
+</ContentPage>

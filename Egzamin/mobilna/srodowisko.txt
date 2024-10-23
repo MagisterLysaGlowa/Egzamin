@@ -1,0 +1,3 @@
+System operacyjny: Microsoft Windows 10
+Środowisko programistyczne: Microsoft Visual Studio 2022
+Nazwa urządzenia: Android Emulator - pixel 5_-_api_33:5554
